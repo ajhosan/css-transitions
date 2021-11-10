@@ -13,7 +13,33 @@ body {
   width: 100px;
   height: 100px;
   background-color: blue;
+  text-align: center;
+  line-height: 100px;
+  margin: 10px 0;
+  color: white;
+  font-weight: 700;
+}
+
+.kotak1 {
   transition: 4s;
+}
+.kotak2 {
+  transition: 4s ease-in;
+}
+.kotak3 {
+  transition: 4s ease-in-out;
+}
+.kotak4 {
+  transition: 4s ease-out;
+}
+.kotak5 {
+  transition: 4s steps(5, jump-start);
+}
+.kotak6 {
+  transition: 4s cubic-bezier(1, -0.48, 0.14, 1.65);
+}
+.kotak7 {
+  transition: 4s 2s;
 }
 
 .container:hover .kotak {
